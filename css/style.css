@@ -39,6 +39,8 @@ button:hover {
     background-size: contain; 
 }
 
+
+/* about meのcss設定 */
 .aboutme {
     position: relative;
     top: 45px;
@@ -46,10 +48,12 @@ button:hover {
     width: 500px;
 }
 
-.firstname {
+/* .firstname {
     color:rgb(143, 143, 143);
     font-size: 20px;
-}
+} */
+
+
 .mycontents {
     background-color: white;
     width: 500px;
@@ -59,6 +63,8 @@ button:hover {
     opacity: 0.85;
 }
 
+
+/* プロフィール項目全体の設定 */
 .myitems {
     position: relative;
     top: 20px;
@@ -67,20 +73,16 @@ button:hover {
     width: 300px;
 }
 
+
+/* 自分自身についての詳細のcss設定 */
 .itemlist {
     list-style-type: none;
     margin-top: 30px;
     color:rgb(143, 143, 143);
     font-size: 14px;
 }
-.myimage {
-    width: 100%;
-    height: 100%;
-}
-.myqr {
-    width: 90px;
-    height: 90px;
-}
+
+/* 画像のcss設定 */
 .mypiccontainer {
     position: absolute;
     top: 160px; 
@@ -89,6 +91,21 @@ button:hover {
     height: 100px;
     border: 8px solid white;
 }
+
+/* 画像の比率の設定 */
+.myimage {
+    width: 100%;
+    height: 100%;
+}
+
+/* QRコードの大きさ設定 */
+.myqr {
+    width: 90px;
+    height: 90px;
+}
+
+
+/* QRコードの詳細css設定 */
 .qrcontainer {
     position: absolute;
     top: 160px;
@@ -101,6 +118,9 @@ button:hover {
     border: 8px solid white;
 }
 
+
+
+/* ここからは背景の円のcss設定 */
 .bubble1 {
     position: absolute;
     height: 200px;

@@ -1,43 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>自己紹介|近もく会ワークショップ</title>
-    <body>
-        <div class="container">
-            <span class="bubble1"></span>
-            <span class="bubble2"></span>
-            <span class="bubble3"></span>
-            <span class="bubble4"></span>
-            <span class="bubble5"></span>
-            <div class="aboutme">
-                <h1><b>ABOUT ME</b></h1>
-                <span class="firstname"></span>
-                <div class="mycontents">
-                    <div class="myitems">
-                        <h2>Mao ohmura</h2>
-                        <h4>近もく会/サーバサイド</h4> 
-                        <ul class="itemlist">
-                            <li>経営学部 4年生</li>
-                            <li>php/python/aws/チョットgo </li>
-                            <li>php/python/aws/チョットgo </li>
-                            <li>php/python/aws/チョットgo </li>
-                        </ul>
-                    </div>
-                    <div class="mypiccontainer">
-                        <img class="myimage" src="images/sample01.jpg"  alt="A picture of myself.">
-                    </div>
-                    <div class="qrcontainer">
-                        <img class="myqr" src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://twitter.com/mavo12312" alt="myqrcode">
-                        <p><b>Contact Me</b></p>
-                    </div> 
-                </div>
-                    
-            </div>
-        </div>    
-    </body>
-    </html>
+    <title>近もく会|workshop</title>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <!-- 背景動かすJS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bubbly-bg@1.0.0/dist/bubbly-bg.js"></script> -->
     
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+        <!-- <script>bubbly();</script>     -->
+
+        <!-- 表示非表示の設定ボタンです -->
+    <button id="toggle">表示・非表示</button>
+    
+    <div class="container" id="target">
+        <span class="bubble1"></span>
+        <span class="bubble2"></span>
+        <span class="bubble3"></span>
+        <span class="bubble4"></span>
+        <span class="bubble5"></span>
+        <div class="aboutme">
+                
+
+            <!-- ここから編集します -->
+            <h1><b>ABOUT ME</b></h1>
+            <span class="firstname"></span>
+            <div class="mycontents">
+                <div class="myitems">
+
+                    <!-- 名前 -->
+                    <h2>Mao ohmura</h2>
+
+                    <!-- 肩書き -->
+                    <h4>近もく会/サーバサイド</h4>
+
+                    <!-- 自分自身についての詳細 -->
+                    <ul class="itemlist">
+                        <li>経営学部 4年生</li>
+                        <li>php/python/aws/チョットgo </li>
+                    </ul>
+                </div>
+
+                <!-- 画像の設定部分 -->
+                <div class="mypiccontainer">
+                    <!-- srcの中のpath（パス）を変更すると表示される画像が変わります -->
+                    <img class="myimage" src="images/sample01.jpg" alt="A picture of myself.">
+                </div>
+
+                <!-- QRコードの設定 -->
+                <div class="qrcontainer">
+                    <!-- srcの中の「chl」以降のurlを変更するとQRコードが変わります -->
+                    <img class="myqr"
+                        src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://twitter.com/mavo12312"
+                        alt="myqrcode">
+
+                        <!-- QRコード下の文字の変更です -->
+                    <p><b>Contact Me</b></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -8,6 +8,27 @@ body {
     background: white;
 }
 
+button{
+    background-color: #14B3F5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 80px; 
+    margin-top: 50px;
+    transition-duration: 0.4s;
+    border: 2px solid #14B3F5;
+}
+
+button:hover {
+    background-color: white; /* Green */
+    color: #14B3F5;
+  }
+
 .container {
     position: absolute;
     width: 800px;
@@ -18,6 +39,8 @@ body {
     background-size: contain; 
 }
 
+
+/* about meのcss設定 */
 .aboutme {
     position: relative;
     top: 45px;
@@ -25,10 +48,12 @@ body {
     width: 500px;
 }
 
-.firstname {
+/* .firstname {
     color:rgb(143, 143, 143);
     font-size: 20px;
-}
+} */
+
+
 .mycontents {
     background-color: white;
     width: 500px;
@@ -38,6 +63,8 @@ body {
     opacity: 0.85;
 }
 
+
+/* プロフィール項目全体の設定 */
 .myitems {
     position: relative;
     top: 20px;
@@ -46,28 +73,39 @@ body {
     width: 300px;
 }
 
+
+/* 自分自身についての詳細のcss設定 */
 .itemlist {
     list-style-type: none;
     margin-top: 30px;
     color:rgb(143, 143, 143);
     font-size: 14px;
 }
-.myimage {
-    width: 100%;
-    height: 100%;
-}
-.myqr {
-    width: 90px;
-    height: 90px;
-}
+
+/* 画像のcss設定 */
 .mypiccontainer {
     position: absolute;
     top: 160px; 
     left: -50px;
-    width: 90px;
+    width: 100px;
     height: 100px;
     border: 8px solid white;
 }
+
+/* 画像の比率の設定 */
+.myimage {
+    width: 100%;
+    height: 100%;
+}
+
+/* QRコードの大きさ設定 */
+.myqr {
+    width: 90px;
+    height: 90px;
+}
+
+
+/* QRコードの詳細css設定 */
 .qrcontainer {
     position: absolute;
     top: 160px;
@@ -80,6 +118,9 @@ body {
     border: 8px solid white;
 }
 
+
+
+/* ここからは背景の円のcss設定 */
 .bubble1 {
     position: absolute;
     height: 200px;

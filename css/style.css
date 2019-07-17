@@ -96,6 +96,7 @@ button:hover {
 .myimage {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 /* QRコードの大きさ設定 */
